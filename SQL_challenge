@@ -1,3 +1,7 @@
 SELECT * FROM public.data_table AS pdt 
 INNER JOIN public.email_table AS pet
 WHERE pdt.join_id=pet.join_id AND column_1%2=0 AND column_2<column_1 AND column_3 LIKE '%1';
+
+
+and here you can find the SnowFlake link of my results:
+https://app.snowflake.com/eu-central-1/bv98937/#/nimbus-challenges-folder-faWlB87GA
